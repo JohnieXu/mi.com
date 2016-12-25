@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#top{
+	height: 40px;
+	background: #333;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #757575;
+	line-height: 40px;
+}
+#top .container{
+	width: 1226px;/*官网上此处
+	用的是min-width,如果这里也
+	用它的话，container宽度就是
+	整个屏幕？？？*/
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+#top .container .topbar-nav{
+	widows: 587px;
+	float: left;
+}
+#top .container .topbar-info{
+	float: left;
+	position: absolute;
+	right: 125px;
+	/*尝试定位topbar-info*/
+	/*left: 1000px;*/
+	/*padding-left: 5px;*/
+	/*padding-right: 40px;*/
+}
+#top .container .topbar-info a{
+	padding: 0 5px;
+	/*border: 1px solid red;*/
+}
+#top .container .topbar-info .message{
+	padding: 0 10px;
+}
+#top .container .topbar-cart{
+	float: right;
+	padding: 0 5px;
+	position: absolute;
+	right: 0px;
+	width: 120px;
+	height: 40px;
+	padding: 0;
+	background: #424242;
+}
+#top .container .topbar-cart{
+	text-align: center;
+
+}
+#top .container a{
+	text-decoration: none;
+	color: #b0b0b0;
+	/*padding: 0 8px;*/
+}
+#top .container a:hover{
+	color: #fff;
+}
+#top .container .sep{
+	margin: 0 0.5em;
+	color: #424242;
+}
+.site-header{
+	height: 100px;
+	/*background: red;*/
+
+}
+.site-header .container{
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	color: #333;
+	position: relative;
+	/*line-height: */
+}
+.site-header .container .header-logo{
+	width: 62px;
+	margin-top: 22px;
+	float: left;
+	/*position: absolute;
+	top: 22px;
+	left: 0;*/
+	/*vertical-align: middle;*/
+
+}
+.site-header .container .header-nav{
+	float: left;
+	height: 100px;
+}
+.site-header .container .header-nav .nav-list{
+	list-style-type: none;
+	width: 820px;
+	height: 88px;
+	padding-top: 7px;
+	padding-left: 30px;
+	/*vertical-align: middle;*/
+
+}
+.site-header .container .header-nav .nav-list li{
+	float: left;
+
+}
+.site-header .container .header-nav .nav-list li a{
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	line-height: 88px;
+	padding: 26px 10px 38px;
+}
+.site-header .container .header-search{
+	float: right;
+	width: 296px;
+	height: 50px;
+	margin-top: 25px;
+	background: red;
+}
+#J_navCategory{
+	width: 127px;
+	height: 88px;
+	margin-right: 15px;
+}
+/*.home-hero-container .home-hero{
+	width: 1226px;
+	height: 644px;
+	margin: 0 auto;
+	background: red;
+}*/
+.ui-wrapper{
+	margin: 0 auto;
+}
+/*.home-hero-container .home-hero div{*/
+#J_homeSlider, #J_homeSlider div{
+	height: 460px;
+	width: 1226px;
+	margin: 0 auto;
+}
+.ui-controls .ui-pager{
+	width:400px;
+	height: 18px;
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+	/*text-align: right;*//*设置按钮右对齐，结果不可行？*/
+	border:1px solid red;
+	line-height: 20px;
+
+}
+.ui-controls .ui-pager-item{
+	width: 20px;
+	height: 10px;
+	color: #666;
+	float: right;
+	/*margin: 5px 0;*/
+	/*margin: 0 5px；*/
+	/*border: 1px solid deeppink;*/
+	/*z-index: 100;*/
+}
+.ui-controls .ui-pager-item a{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	text-decoration: none;
+	border: 2px solid #eee;
+	border-radius: 6px;
+	/*color: #0f0;*/
+	background: rgba(255,255,255,0.4);
+	margin: 0 5px;
+}
+.button-hover{/*轮播图控制按钮滑过变色*/
+	background: #122953;
+}
