@@ -2,6 +2,17 @@
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
 #top{
 	height: 40px;
 	background: #333;
@@ -93,6 +104,19 @@
 	float: left;
 	height: 100px;
 }
+.site-header .container .header-nav .nav-category{
+	visibility: hidden;
+	position: relative;
+}
+.site-header .container .header-nav .nav-category a{
+	width: 127px;
+	height: 24px;
+	padding: 26px 0 38px 0;
+	font-size: 16px;
+	text-align: right;
+	color: #333;
+
+}
 .site-header .container .header-nav .nav-list{
 	list-style-type: none;
 	width: 820px;
@@ -102,6 +126,27 @@
 	/*vertical-align: middle;*/
 
 }
+/*左侧导航栏样式*/
+.site-category{
+	width: 234px;
+	height: 460px;
+	top: 0;
+	left: -300px;
+	z-index: 99;
+	visibility: visible;
+	border: 1px solid red;
+}
+.header-nav .nav-category .category-item{
+	width: 234px;
+	height: 42px;
+}
+#J_categoryList{
+	position: absolute;
+	top: 0;
+	left: -100px;
+	visibility: visible;
+}
+
 .site-header .container .header-nav .nav-list li{
 	float: left;
 
@@ -133,12 +178,26 @@
 }*/
 .ui-wrapper{
 	margin: 0 auto;
+	width: 1226px;
+	
+}
+.ui-wrapper .ui-viewport{
+	z-index: 1;
 }
 /*.home-hero-container .home-hero div{*/
 #J_homeSlider, #J_homeSlider div{
 	height: 460px;
 	width: 1226px;
 	margin: 0 auto;
+}
+.ui-controls{
+	width:1226px;
+	height: 460px;
+	border:1px solid red;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
 }
 .ui-controls .ui-pager{
 	width:400px;
@@ -149,6 +208,8 @@
 	/*text-align: right;*//*设置按钮右对齐，结果不可行？*/
 	border:1px solid red;
 	line-height: 20px;
+	z-index: 3;
+
 
 }
 .ui-controls .ui-pager-item{
