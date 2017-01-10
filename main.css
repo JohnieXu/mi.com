@@ -14,7 +14,7 @@ li{
 	clear: both;
 }
 .h1000{
-	height: 1000px;
+	//height: 1000px;
 	border: 1px solid blue;
 }
 .h200{
@@ -251,4 +251,8 @@ li{
 #J_modaVideo{
 	width: 1226px;
 	margin: 0 auto;
+}
+#J_modaVideo div ul li{
+	list-style: none;
+	display: inline-block;
 }
