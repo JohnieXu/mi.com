@@ -13,6 +13,14 @@ li{
 	display: block;
 	clear: both;
 }
+.h1000{
+	height: 1000px;
+	border: 1px solid blue;
+}
+.h200{
+	height: 200px;
+	border: 1px solid blue;
+}
 #top{
 	height: 40px;
 	background: #333;
@@ -235,4 +243,12 @@ li{
 }
 .button-hover{/*轮播图控制按钮滑过变色*/
 	background: #122953;
+}
+.page-main{
+	width: 1226px;
+	margin: 0 auto;
+}
+#J_modaVideo{
+	width: 1226px;
+	margin: 0 auto;
 }
