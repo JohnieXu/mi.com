@@ -256,7 +256,7 @@ li{
 	height: 170px;
 	display: inline-block;
 	margin-left: 12px;
-	background-color: red;
+	/*background-color: red;*/
 }
 .page-main li img{
 	width: 100%;
@@ -264,6 +264,12 @@ li{
 }
 .page-main li:first-child{
 	width: 234px;
+	margin: 0;
+}
+.page-main .home-channel-list li{
+	float: left;
+	width: 76px;
+	height: 82px;
 	margin: 0;
 }
 #J_modaVideo{
@@ -278,4 +284,13 @@ li{
 }
 #J_modaVideo div ul li img{
 	width: 100%;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 226771 */
+  src: url('//at.alicdn.com/t/font_5zat85p70c7919k9.eot');
+  src: url('//at.alicdn.com/t/font_5zat85p70c7919k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_5zat85p70c7919k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_5zat85p70c7919k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_5zat85p70c7919k9.svg#iconfont') format('svg');
 }
