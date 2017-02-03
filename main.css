@@ -266,6 +266,13 @@ li{
 	width: 234px;
 	margin: 0;
 }
+.page-main .home-channel-list{
+	/*vertical-align: top;*/
+	/*background-color: red;*/
+	height: 170px;
+	margin-top: 0px;
+	background-color: #5F5750;
+}
 .page-main .home-channel-list li{
 	float: left;
 	width: 76px;
