@@ -248,6 +248,24 @@ li{
 	width: 1226px;
 	margin: 0 auto;
 }
+.page-main ul{
+	margin: 20px 0;
+}
+.page-main li{
+	width: 316px;
+	height: 170px;
+	display: inline-block;
+	margin-left: 12px;
+	background-color: red;
+}
+.page-main li img{
+	width: 100%;
+	height: 100%;
+}
+.page-main li:first-child{
+	width: 234px;
+	margin: 0;
+}
 #J_modaVideo{
 	width: 1226px;
 	margin: 0 auto;
