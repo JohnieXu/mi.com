@@ -8,6 +8,16 @@ a{
 li{
 	list-style-type: none;
 }
+h2{
+	height: 58px;
+	font: 22px/58px "Microsoft Yahei";
+	font-weight: 200;
+	color: #333;
+}
+/*h3{
+	font: 14px/1.5em "Microsoft Yahei";
+	font-weight: 400;
+}*/
 .clearfix:after{
 	content: "";
 	display: block;
@@ -29,7 +39,7 @@ li{
 	color: #757575;
 	line-height: 40px;
 }
-#top .container{
+.container{
 	width: 1226px;/*官网上此处
 	用的是min-width,如果这里也
 	用它的话，container宽度就是
@@ -316,4 +326,79 @@ li{
 }
 #J_modaVideo div ul li img{
 	width: 100%;
+}
+#J_homeStar{
+	width: 1226px;
+	margin: 0 auto;
+}
+#J_homeStar ul{
+	height: 340px;
+}
+#J_homeStar .box-hd{
+	position: relative;
+	margin-right: -14px;
+}
+#J_homeStar .box-hd:last-child{
+	height: 380px;
+}
+#J_homeStar .box-hd .more{
+	position: absolute;
+	bottom: 5px;
+	right: 14px;
+}
+#J_homeStar .box-hd .more a{
+	display: inline-block;
+	width: 26px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #e0e0e0;
+	padding: 5px;
+}
+#J_homeStar .box-hd .more a:hover{
+	color: red;
+}
+#J_homeStar .box-hd .more a:last-child{
+	border-left: none;
+	width: 27px;
+}
+#J_homeStar .box-hd .more a.disabled{
+	color: #b0b0b0;
+	cursor: default;
+}
+#J_homeStar .box-hd ul li{
+	text-align: center;
+	background: #FAFAFA;
+	margin-right: 14px;
+	border-top: 1px solid #ffac13;
+	padding-top: 39px;
+	width: 234px;
+	height:300px;
+	float: left;
+}
+#J_homeStar .box-hd .title, #J_homeStar .box-hd .title a{
+	display: block;
+	font-size: 14px;
+	font-weight: 200;
+	font-family: "Microsoft Yahei";
+	height: 18px;
+	line-height: 18px;
+	margin: 0 20px 3px 20px;
+}
+#J_homeStar .box-hd .desc{
+	height: 18px;
+	margin: 0 20px 12px 20px;
+	font-size: 12px;
+	font-weight: 200;
+	font-family: "Microsoft Yahei";
+	color: #C0B0B0;
+}
+#J_homeStar .box-hd .price{
+	height: 21px;
+	color: red;
+	font-size: 12px;
+	font-weight: 200;
+	font-family: "Microsoft Yahei";
 }
