@@ -395,15 +395,36 @@ h2{
 #J_modaVideo{
 	width: 100%;
 }
-#J_modaVideo .ul-container ul li{
+#J_modaVideo .ul-container .span4{
+	width: 234px;
+	height: 614px;
+	float: left;
+}
+#J_modaVideo .ul-container .span16{
+	width: 978px;
+	height: 628px;
+	float: left;
+}
+#J_modaVideo .ul-container .span4 ul{
+	/*width: 100%;*/
+	/*height: 614px;*/
+	margin: 0;
+}
+#J_modaVideo .ul-container .span16 ul{
+	width: 992px;
+	height: 614px;
+	margin: 0;
+}
+#J_modaVideo .ul-container .span16 ul.brick-list li{
 	list-style: none;
 	/*display: inline-block;*/
 	float: left;
 	width: 234px;
-	height: 574px;
+	height: 260px;
 	padding: 20px 0;
+	margin: 0 0 14px 14px;
 	text-align: center;
-	background-color: rgba(255,0,0,0.1);
+	background-color: rgba(255,255,255,1);
 }
 #J_modaVideo .ul-container ul li:first-child{
 	padding: 0;
@@ -412,7 +433,7 @@ h2{
 	width: 100%;
 	height: 100%;
 }
-#J_modaVideo .ul-container ul li img{
+#J_modaVideo .ul-container .span16 ul li img{
 	width: 160px;
 	height: 160px;
 }
