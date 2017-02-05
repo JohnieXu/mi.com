@@ -395,10 +395,42 @@ h2{
 #J_modaVideo{
 	width: 100%;
 }
+#J_modaVideo .ul-container .w234{
+	width: 234px;
+}
+#J_modaVideo .more{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	/*width: 92px;*/
+	/*height: 58px;*/
+}
+#J_modaVideo .section1 .more a.more-link{
+	display: block;
+	width: 92px;
+	height:24px;
+	font: 16px/1.5 "Microsoft Yahei";
+	color: #424242;
+}
+#J_modaVideo .section1 .more a.more-link:hover{
+	color: #FF6700;
+}
+/*#J_modaVideo .section1 .more a.more-link span{
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	padding: 4px;
+}*/
 #J_modaVideo .ul-container .span4{
 	width: 234px;
 	height: 614px;
 	float: left;
+}
+#J_modaVideo .ul-container .span4 ul li{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin: 0 0 14px 0;
 }
 #J_modaVideo .ul-container .span16{
 	width: 978px;
@@ -469,4 +501,35 @@ h2{
 	font-size: 12px;
 	font-weight: 200;
 	font-family: "Microsoft Yahei";
+}
+
+#J_modaVideo .section2, #J_modaVideo .section3, #J_modaVideo .section4{
+	position: relative;
+}
+#J_modaVideo .tab-list{
+	height: 30px;
+}
+#J_modaVideo .tab-list a{
+	font: 16px/1.5 "Microsoft Yahei";
+	color: #424242;
+}
+#J_modaVideo .tab-list ul{
+	height: 26px;
+	margin: 0;
+}
+#J_modaVideo .tab-list ul li{
+	float: left;
+	margin: 0 0 0 12px;
+	padding: 4px;
+	width: auto;
+	height: 18px;
+	line-height: 18px;
+}
+#J_modaVideo .tab-list ul li.tab-active a{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+#J_modaVideo .tab-list ul li:hover a{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
 }
