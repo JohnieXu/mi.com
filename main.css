@@ -342,7 +342,8 @@ h2{
 }
 #J_homeStar .box-hd .more{
 	position: absolute;
-	bottom: 5px;
+	/*bottom: 5px;*/
+	top: 20px;
 	right: 14px;
 }
 #J_homeStar .box-hd .more a{
@@ -424,7 +425,7 @@ h2{
 	position: absolute;
 	top: 55px;
 	right: 125px;
-	font: 18px/1 "Microsoft Yahei";
+	font: 18px/1.2 "Microsoft Yahei";
 	color: #333;
 	text-align: left;
 }
@@ -434,6 +435,12 @@ h2{
 	height: 21px;
 	line-height: 21px;
 	overflow: hidden;
+}
+#J_modaVideo .icon-jiantouxiangyou:before{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF700F;
+    text-align: right;
 }
 #J_modaVideo .brick-item-s p{
 	text-indent: 15px;
@@ -493,6 +500,7 @@ h2{
 	text-align: center;
 	background-color: rgba(255,255,255,1);
 }
+
 #J_modaVideo .ul-container .span16 ul.brick-list .brick-item-s{
 	height: 83px;
 	padding: 60px 0 0 0;
@@ -503,6 +511,10 @@ h2{
 #J_modaVideo .ul-container ul li:first-child img{
 	width: 100%;
 	height: 100%;
+}
+#J_modaVideo .ul-container .span16 ul li div.figure-more{
+	width: 48px;
+	margin: -10px 0 0 145px;
 }
 #J_modaVideo .ul-container .span16 ul li div.figure-s{
 	width: 80px;
@@ -553,7 +565,7 @@ h2{
 	font-family: "Microsoft Yahei";
 }
 
-#J_modaVideo .section2, #J_modaVideo .section3, #J_modaVideo .section4{
+#J_modaVideo .section2, #J_modaVideo .section3, #J_modaVideo .section4, #J_modaVideo .section5, #J_modaVideo .section6, #J_modaVideo .section7, #J_modaVideo .section8{
 	position: relative;
 }
 #J_modaVideo .tab-list{
@@ -582,4 +594,49 @@ h2{
 #J_modaVideo .tab-list ul li:hover a{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
+}
+#J_modaVideo .section5 .ul-container .span16{
+	width: 100%;
+	height: auto;
+	/*height: 314px;*/
+	float: left;
+}
+#J_modaVideo .section5 .ul-container .span16 ul{
+	width: 100%;
+	height: auto;
+	/*height: 314px;*/
+}
+#J_modaVideo .section5 .ul-container .span16 ul.brick-list li:first-child{
+	margin-left: 0;
+}
+#J_modaVideo .section5 .box-hd{
+	position: relative;
+}
+#J_modaVideo .section5 .more{
+	position: absolute;
+	bottom: 5px;
+	right: 14px;
+	height: 26px;
+}
+#J_modaVideo .section5 .more a{
+	display: inline-block;
+	width: 26px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #e0e0e0;
+	padding: 5px;
+}
+#J_modaVideo .section5 .more a:hover{
+	color: red;
+}
+#J_modaVideo .section5 .more a:last-child{
+	border-left: none;
+	width: 27px;
+}
+#J_modaVideo .section5 .more a.disabled{
+	color: #b0b0b0;
+	cursor: default;
 }
