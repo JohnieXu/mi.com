@@ -670,13 +670,13 @@ h2{
 #J_modaVideo .ul-container .span16 ul.brick-list li.review-item > div:first-child{
 	margin-bottom: 28px;
 }
-#J_modaVideo .ul-container .span16 ul.brick-list li.review-item a{
+#J_modaVideo .section6 .ul-container .span16 ul.brick-list li.review-item a{
 	display:block;
 	width: 100%;
 	height: 100%;
 }
 /*图片下描述信息样式*/
-#J_modaVideo .ul-container .span16 ul.brick-list li.review-item p.review a{
+#J_modaVideo .section6 .ul-container .span16 ul.brick-list li.review-item p.review a{
 	display: block;
 	width: 240px;
 	height: 72px;
@@ -685,10 +685,11 @@ h2{
 	/*font: 14px/24 "Microsoft Yahei";*/
 	font-size:14px;
 	font-family: "Microsfot Yahei";
+
 	font-weight: 400;
 	overflow: hidden;
 }
-#J_modaVideo .ul-container .span16 ul.brick-list li.review-item p.author{
+#J_modaVideo .section6 .ul-container .span16 ul.brick-list li.review-item p.author{
 	width: 230px;
 	height: 18px;
 	font-family: "Helvetica Neue";
