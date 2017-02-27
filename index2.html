@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米官网</title>
+	<link rel="stylesheet" href="css/basic.css">
+</head>
+<body>
+	<div class="site-bn-bar"></div>
+	<div class="site-topbar">
+		<div class="container">
+			<div class="topbar-nav">
+				<ul class="nav-list">
+					<li><a href="">小米商城</a></li>
+					<li><a href="">MIUI</a></li>
+					<li><a href="">米聊</a></li>
+					<li><a href="">游戏</a></li>
+					<li><a href="">多看阅读</a></li>
+					<li><a href="">云服务</a></li>
+					<li><a href="">金融</a></li>
+					<li><a href="">小米商城移动版</a></li>
+					<li><a href="">问题反馈</a></li>
+					<li><a href="">SelectRegion</a></li>
+				</ul>
+			</div>
+			<div class="topbar-cart" id="J_miniCartTrigger">
+				<a href="" class="cart-mini" id="J_miniCartBtn">
+					<i></i>购物车
+					<span class="cart-mini-num J_cartNum">(0)</span>
+				</a>
+				<div class="cart-menu" id="J_miniCartMenu"></div>
+			</div>
+			<div class="topbar-info"></div>
+		</div>
+	</div>
+	<div class="site-header"></div>
+	<div class="home-hero-container"></div>
+	<div class="page-main home-main"></div>
+	<div id="J_modalVideo" class="modal modal-video fade modal-hide"></div>
+	<script>
+		window.onload = function () {
+			console.log("javascript is ok");
+			var J_miniCartTrigger = document.getElementById("J_miniCartTrigger");
+			var J_miniCartMenu = document.getElementById("J_miniCartMenu");
+			J_miniCartTrigger.onmouseover = function() {
+				// J_miniCartMenu.setAttribute("display", "block");
+				J_miniCartMenu.style.display = "block";
+			};
+			J_miniCartTrigger.onmouseout = function() {
+				// J_miniCartMenu.setAttribute("display", "block");
+				J_miniCartMenu.style.display = "none";
+			};
+			// body... 
+		}
+	</script>
+</body>
+</html>

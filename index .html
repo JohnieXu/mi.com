@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>小米官网</title>
 	<style type="text/css"></style>
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/basic.css">
 	<link rel="stylesheet" href="http:////at.alicdn.com/t/font_tc9uorln6fqx5hfr.css">
 </head>
 <body>
@@ -527,14 +527,86 @@
 		</div>
 
 	</div>
-
+	<div id="site-footer">
+		<div class="container">
+			<div class="footer-service">
+				<ul class="list-service clearfix">
+					<li><a href=""><i></i>预约维修服务</a></li>
+					<li><a href=""><i></i>预约维修服务</a></li>
+					<li><a href=""><i></i>预约维修服务</a></li>
+					<li><a href=""><i></i>预约维修服务</a></li>
+					<li><a href=""><i></i>预约维修服务</a></li>
+				</ul>
+			</div>
+			<div class="footer-links clearfix">
+				<dl class="col-links">
+					<dt>帮助中心</dt>
+					<dd>账户管理</dd>
+					<dd>购物指南</dd>
+					<dd>订单操作</dd>
+				</dl>
+				<dl class="col-links">
+					<dt>帮助中心</dt>
+					<dd>账户管理</dd>
+					<dd>购物指南</dd>
+					<dd>订单操作</dd>
+				</dl>
+				<dl class="col-links">
+					<dt>帮助中心</dt>
+					<dd>账户管理</dd>
+					<dd>购物指南</dd>
+					<dd>订单操作</dd>
+				</dl>
+				<dl class="col-links">
+					<dt>帮助中心</dt>
+					<dd>账户管理</dd>
+					<dd>购物指南</dd>
+					<dd>订单操作</dd>
+				</dl>
+				<dl class="col-links">
+					<dt>帮助中心</dt>
+					<dd>账户管理</dd>
+					<dd>购物指南</dd>
+					<dd>订单操作</dd>
+				</dl>
+				<dl class="col-links">
+					<dt>帮助中心</dt>
+					<dd>账户管理</dd>
+					<dd>购物指南</dd>
+					<dd>订单操作</dd>
+				</dl>
+				<div class="col-contact">
+					<p class="phone">400-100-5678</p>
+					<p>
+						<span>周一至周日 8:00-18:00</span><br><span>（仅收市话费）</span>
+					</p>
+					<a href="" class="btn btn-line-primary btn-small"><i></i>24小时在线客服</a>
+				</div>
+			</div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
 	<script src="js/jquery.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		var _index=$(".ui-controls .ui-pager-item a").index();
-		// 实现轮播图
-		$(".ui-controls .ui-pager-item a").hover(function(){
-			$(this).addClass("button-hover").siblings().removeClass("button-hove");
-		});
+		// var _index=$(".ui-controls .ui-pager-item a").index();
+		// // 实现轮播图
+		// $(".ui-controls .ui-pager-item a").hover(function(){
+		// 	$(this).addClass("button-hover").siblings().removeClass("button-hover");
+		// });
+		window.onload = function () {
+			console.log("javascript is ok");
+			var J_miniCartTrigger = document.getElementById("J_miniCartTrigger");
+			var J_miniCartMenu = document.getElementById("J_miniCartMenu");
+			J_miniCartTrigger.onmouseover = function() {
+				// J_miniCartMenu.setAttribute("display", "block");
+				J_miniCartMenu.style.display = "block";
+			};
+			J_miniCartTrigger.onmouseout = function() {
+				// J_miniCartMenu.setAttribute("display", "block");
+				J_miniCartMenu.style.display = "none";
+			};
+		}
 	</script>
 </body>
 </html>

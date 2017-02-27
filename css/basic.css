@@ -1,0 +1,120 @@
+/*样式重置*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+/*公共样式*/
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.btn {
+  display: inline-block;
+  width: 158px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #b0b0b0;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  color: #b0b0b0;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.btn-small {
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+}
+.btn-line-primary {
+  border-color: #ff6700;
+  background: #fff;
+  color: #ff6700;
+}
+.btn-line-primary:hover {
+  color: #fff;
+  background: #ff6700;
+}
+/*footer样式*/
+#site-footer {
+  background-color: #fff;
+}
+#site-footer .footer-service {
+  width: 100%;
+  height: 25px;
+  padding: 27px 55px;
+  border-bottom: 1px solid #ccc;
+}
+#site-footer .list-service {
+  list-style: none;
+}
+#site-footer .list-service li {
+  box-sizing: border-box;
+  float: left;
+  width: 234px;
+  padding: 0 50px;
+  border-right: 1px solid #ccc;
+}
+#site-footer .list-service li:last-child {
+  border: none;
+  margin-right: 0;
+}
+#site-footer .list-service li a {
+  color: #616161;
+}
+#site-footer .list-service li a:hover {
+  color: #FF6700;
+}
+#site-footer .footer-links {
+  height: 112px;
+  padding: 40px 0;
+}
+#site-footer .footer-links .col-links {
+  float: left;
+  width: 160px;
+  text-align: left;
+}
+#site-footer .footer-links dd {
+  color: #757575;
+  cursor: pointer;
+}
+#site-footer .footer-links dd:hover {
+  color: #FF6700;
+}
+#site-footer .footer-links .col-contact {
+  float: right;
+  width: 235px;
+  height: 100%;
+  text-align: center;
+}
+#site-footer .footer-links .col-contact:before {
+  content: "";
+  width: 1px;
+  height: 84px;
+  background-color: #ccc;
+  float: left;
+}
+#site-footer .footer-links .col-contact .phone {
+  color: #FF6700;
+  font-size: 22px;
+  margin: 0 0 0 5px;
+}
