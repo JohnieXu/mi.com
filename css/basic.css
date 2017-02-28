@@ -5,6 +5,7 @@
 }
 body {
   font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #333;
 }
 a {
   text-decoration: none;
@@ -54,7 +55,7 @@ ul {
   color: #fff;
   background: #ff6700;
 }
-/*footer样式*/
+/*网站脚部site-footer样式-开始*/
 #site-footer {
   background-color: #fff;
 }
@@ -118,3 +119,65 @@ ul {
   font-size: 22px;
   margin: 0 0 0 5px;
 }
+#site-info {
+  width: 100%;
+  height: 106px;
+  padding: 30px 0;
+  font-size: 12px;
+}
+#site-info .logo {
+  float: left;
+  width: 57px;
+  height: 57px;
+  margin-right: 10px;
+  background: url("http://s01.mifile.cn/i/logo-footer.png?v2");
+  background-repeat: no-repeat;
+}
+#site-info .info-text {
+  width: 765px;
+  float: left;
+  -webkit-transition: all 0.2s;
+  transition: all 0.4s;
+}
+#site-info .info-text p {
+  margin: 0;
+  padding: 0;
+  line-height: 18px;
+}
+#site-info .info-text .sites a {
+  display: inline-block;
+  color: #757575;
+}
+#site-info .info-text .sites a:hover {
+  color: #FF6700;
+}
+#site-info .info-text .icp {
+  color: #959595;
+}
+#site-info .info-text .icp a {
+  display: inline-block;
+  color: #b0b0b0;
+}
+#site-info .info-text .icp a:hover {
+  color: #FF6700;
+}
+#site-info .info-text .sep {
+  margin: 0 0.25em;
+}
+#site-info .info-links {
+  float: right;
+}
+#site-info .info-links a {
+  display: inline-block;
+}
+#site-info .info-links img {
+  width: 85px;
+  height: 28px;
+}
+#site-info .slogan {
+  margin: 30px auto 0;
+  width: 267px;
+  height: 19px;
+  background: url("http://s01.mifile.cn/i/slogan2016.png");
+}
+/*网站脚部site-footer样式-结束*/
