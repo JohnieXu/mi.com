@@ -5,15 +5,21 @@
 	<title>小米官网</title>
 	<style type="text/css"></style>
 	<link rel="stylesheet" href="css/basic.css">
-	<link rel="stylesheet" href="http:////at.alicdn.com/t/font_tc9uorln6fqx5hfr.css">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_f83nemh29fhfflxr.css">
 </head>
 <body>
 	<!-- 顶部导航栏 -->
-	<div id="top">
+	<div id="site-bn-bar">
+		<a href="" class="site-bn-bar-link"></a>
+	</div>
+	<div id="site-topbar">
 		<div class="container">
 			<div class="topbar-nav"><a href="#">小米商城</a><span class="sep">|</span><a href="#">MIUI</a><span class="sep">|</span><a href="#">米聊</a><span class="sep">|</span><a href="#">游戏</a><span class="sep">|</span><a href="#">多看阅读</a><span class="sep">|</span><a href="#">云服务</a><span class="sep">|</span><a href="#">金融</a><span class="sep">|</span><a href="#">小米网移动版</a><span class="sep">|</span><a href="#">问题反馈</a><span class="sep">|</span><a href="#">Select Region</a></div>
-			<div class="topbar-cart"><a href="#" class="cart-mini">购物车</a></div>
-			<div class="topbar-info"><a href="#">登录</a><span class="sep">|</span><a href="#">注册</a><span class="sep">|</span><a href="#" class="message">消息通知</a></div>
+			<div class="topbar-cart"><a href="#" class="cart-mini"><i class="iconfont icon-msnui-cart"></i>购物车 ( 0 )</a></div>
+			<div class="cart-menu" id="J_miniCartMenu">
+				
+			</div>
+			<div class="topbar-info"><a href="#">登录</a><span class="sep">|</span><a href="#">注册</a><span class="sep">|</span><a href="#" class="message">消息通知 ( 1 )</a></div>
 		</div>
 	</div>
 	<!-- 网站头部 -->
@@ -636,19 +642,23 @@
 		// $(".ui-controls .ui-pager-item a").hover(function(){
 		// 	$(this).addClass("button-hover").siblings().removeClass("button-hover");
 		// });
-		window.onload = function () {
-			console.log("javascript is ok");
-			var J_miniCartTrigger = document.getElementById("J_miniCartTrigger");
-			var J_miniCartMenu = document.getElementById("J_miniCartMenu");
-			J_miniCartTrigger.onmouseover = function() {
-				// J_miniCartMenu.setAttribute("display", "block");
-				J_miniCartMenu.style.display = "block";
-			};
-			J_miniCartTrigger.onmouseout = function() {
-				// J_miniCartMenu.setAttribute("display", "block");
-				J_miniCartMenu.style.display = "none";
-			};
-		}
+		$('.cart-mini a').mouseover(function() {
+			$('#J_miniCartMenu').css('display','block')
+		});
+		// window.onload = function () {
+		// 	console.log("javascript is ok");
+		// 	var J_miniCartTrigger = document.getElementById("J_miniCartTrigger");
+		// 	var J_miniCartMenu = document.getElementById("J_miniCartMenu");
+		// 	J_miniCartTrigger.onmouseover = function() {
+		// 		// J_miniCartMenu.setAttribute("display", "block");
+		// 		J_miniCartMenu.style.display = "block";
+		// 	};
+		// 	J_miniCartTrigger.onmouseout = function() {
+		// 		// J_miniCartMenu.setAttribute("display", "block");
+		// 		J_miniCartMenu.style.display = "none";
+		// 	};
+
+		// }
 	</script>
 </body>
 </html>
