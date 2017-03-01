@@ -118,7 +118,7 @@ ul {
   position: absolute;
   top: 40px;
   right: 0;
-  background: red;
+  box-shadow: 0 0 6px #ddd;
 }
 #site-topbar .topbar-info {
   float: right;

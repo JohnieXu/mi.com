@@ -17,7 +17,9 @@
 			<div class="topbar-nav"><a href="#">小米商城</a><span class="sep">|</span><a href="#">MIUI</a><span class="sep">|</span><a href="#">米聊</a><span class="sep">|</span><a href="#">游戏</a><span class="sep">|</span><a href="#">多看阅读</a><span class="sep">|</span><a href="#">云服务</a><span class="sep">|</span><a href="#">金融</a><span class="sep">|</span><a href="#">小米网移动版</a><span class="sep">|</span><a href="#">问题反馈</a><span class="sep">|</span><a href="#">Select Region</a></div>
 			<div class="topbar-cart"><a href="#" class="cart-mini"><i class="iconfont icon-msnui-cart"></i>购物车 ( 0 )</a></div>
 			<div class="cart-menu" id="J_miniCartMenu">
-				
+				<ul>
+					<li></li>
+				</ul>
 			</div>
 			<div class="topbar-info"><a href="#">登录</a><span class="sep">|</span><a href="#">注册</a><span class="sep">|</span><a href="#" class="message">消息通知 ( 1 )</a></div>
 		</div>
@@ -642,8 +644,10 @@
 		// $(".ui-controls .ui-pager-item a").hover(function(){
 		// 	$(this).addClass("button-hover").siblings().removeClass("button-hover");
 		// });
-		$('.cart-mini a').mouseover(function() {
+		$('.cart-mini').mouseover(function() {
 			$('#J_miniCartMenu').css('display','block')
+		}).mouseout(function(){
+			$('#J_miniCartMenu').css('display','none')
 		});
 		// window.onload = function () {
 		// 	console.log("javascript is ok");
