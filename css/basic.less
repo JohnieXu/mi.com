@@ -24,6 +24,7 @@ ul{
 }
 
 /*公共样式*/
+
 .container{
 	width: 1226px;
 	margin: 0 auto;
@@ -64,6 +65,10 @@ ul{
     	color: #fff;
     	background: #ff6700;
     }
+}
+/*测试用样式*/
+.color-test{
+	background-color: rgba(255,0,0,0.3);
 }
 // .container{
 // 	width: 1226px;
@@ -224,6 +229,7 @@ ul{
 /*头部样式site-topbar-结束*/
 
 /*头部导航栏样式site-header-开始*/
+@hover-color: #FF6700;
 #site-header{
 	width: 100%;
 	.header-logo{
@@ -236,6 +242,7 @@ ul{
 			width: 55px;
 			height: 55px;
 			background-color: #ff6700;
+			background: url('http://s01.mifile.cn/i/logo-footer.png?v2');
 			overflow: hidden;
 			&:before,&:after{
 				background: url("http://s01.mifile.cn/i/mi-logo.png") no-repeat 50% 50%;
@@ -272,13 +279,130 @@ ul{
 			line-height: 77px;
 			font-size: 16px;
 		}
+		.nav-item-active{
+			color: @hover-color;
+		}
 	}
 	.header-search{
 		float: right;
 		width: 296px;
 	}
+	//二级导航栏样式
+	#J_navMenu{
+		display: none;
+	}
+	#J_navMenu.header-nav-menu-active{
+		display: block;
+	}
 }
-/*头部导航栏样式site-header-结束*/
+/*头部导航栏样式site-header-END*/
+
+/*主页section1部分样式*/
+.home-hero-container{
+	.home-hero{
+		.home-hero-slider{
+			width: 100%;
+			height: 460px;
+			z-index: 1;
+			.color-test;
+			.slider{
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			.loaded{
+				display: block;
+			}
+			.ui-viewport{
+				z-index: 1;
+				width: 100%;
+				height: 460px;
+				position: relative;
+			}
+			.ui-controls{
+				z-index: 2;
+			}
+			.ui-pager{
+				width: 400px;
+				height: 18px;
+				text-align: right;
+				font-size: 12px;
+				color: #666;
+				position: absolute;
+				right: 30px;
+				bottom: 30px;
+				z-index: 2;
+				// .color-test;
+			}
+			.ui-pager-item{
+				display: inline-block;
+				
+			}
+			.ui-pager-link{
+				display: block;
+				width: 6px;
+				height: 6px;
+				margin: 0 5px;
+				border: 2px solid #fff;
+				border-color: rgba(255,255,255,0.3);
+				border-radius: 10px;
+				text-align: left;
+				text-indent: -9999px;//???
+				overflow: hidden;
+				//_zoom: 1;???
+				background: rgba(0,0,0,0.4);
+				-webkit-transition: all .2s;
+				transition: all .2s;
+			    &.active{
+				    // background: #fff;
+				    background: rgba(255,255,255,0.4);
+				    // border-color: #757575;
+				    border-color: rgba(0,0,0,0.4);
+
+			    }
+		        &:hover{
+		    	    // background: #fff;
+		    	    background: rgba(255,255,255,0.4);
+		    	    // border-color: #757575;
+		    	    border-color: rgba(0,0,0,0.4);
+
+		        }
+			}
+			.ui-controls-direction{
+				z-index: 2;
+				a{
+					position: absolute;
+					top: 50%;
+					width: 41px;
+					height: 69px;
+					margin-top: -35px;
+					text-indent: -9999px;
+					overflow: hidden;
+					outline: 0;
+					z-index: 2;
+					// opacity: 0;
+					-webkit-transition: all 0.2s;
+					transition: all 0.2s;
+					&:hover{
+						background: rgba(0,0,0,0.6);
+						opacity: 0.6;
+
+					}
+				}
+			}
+			a.ui-prev{
+				left: 234px;
+				.color-test;
+			}
+			a.ui-next{
+				right: 0;
+				.color-test;
+			}
+		}
+	}
+}
+/*主页section1部分样式-END*/
 
 
 /*网站脚部site-footer样式-开始*/

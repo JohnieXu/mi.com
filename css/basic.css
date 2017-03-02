@@ -62,6 +62,10 @@ ul {
   color: #fff;
   background: #ff6700;
 }
+/*测试用样式*/
+.color-test {
+  background-color: rgba(255, 0, 0, 0.3);
+}
 /*顶端广告样式-开始*/
 #site-bn-bar {
   width: 100%;
@@ -164,6 +168,7 @@ ul {
   width: 55px;
   height: 55px;
   background-color: #ff6700;
+  background: url('http://s01.mifile.cn/i/logo-footer.png?v2');
   overflow: hidden;
 }
 #site-header .header-logo .logo:before,
@@ -201,11 +206,111 @@ ul {
   line-height: 77px;
   font-size: 16px;
 }
+#site-header .header-nav .nav-item-active {
+  color: #ff6700;
+}
 #site-header .header-search {
   float: right;
   width: 296px;
 }
-/*头部导航栏样式site-header-结束*/
+#site-header #J_navMenu {
+  display: none;
+}
+#site-header #J_navMenu.header-nav-menu-active {
+  display: block;
+}
+/*头部导航栏样式site-header-END*/
+/*主页section1部分样式*/
+.home-hero-container .home-hero .home-hero-slider {
+  width: 100%;
+  height: 460px;
+  z-index: 1;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.home-hero-container .home-hero .home-hero-slider .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.home-hero-container .home-hero .home-hero-slider .loaded {
+  display: block;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-viewport {
+  z-index: 1;
+  width: 100%;
+  height: 460px;
+  position: relative;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-controls {
+  z-index: 2;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-pager {
+  width: 400px;
+  height: 18px;
+  text-align: right;
+  font-size: 12px;
+  color: #666;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  z-index: 2;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-pager-item {
+  display: inline-block;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-pager-link {
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin: 0 5px;
+  border: 2px solid #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  text-align: left;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-pager-link.active {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.home-hero-container .home-hero .home-hero-slider .ui-pager-link:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.home-hero-container .home-hero .home-hero-slider .ui-controls-direction {
+  z-index: 2;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-controls-direction a {
+  position: absolute;
+  top: 50%;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+  text-indent: -9999px;
+  overflow: hidden;
+  outline: 0;
+  z-index: 2;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.home-hero-container .home-hero .home-hero-slider .ui-controls-direction a:hover {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.6;
+}
+.home-hero-container .home-hero .home-hero-slider a.ui-prev {
+  left: 234px;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.home-hero-container .home-hero .home-hero-slider a.ui-next {
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+/*主页section1部分样式-END*/
 /*网站脚部site-footer样式-开始*/
 #site-footer {
   background-color: #fff;
