@@ -15,6 +15,13 @@ a{
 ul{
 	list-style: none;
 }
+.ir{
+	display: block;
+	text-align: left;
+	text-indent: -999em;
+	overflow: hidden;
+	zoom: 1;
+}
 
 /*公共样式*/
 .container{
@@ -137,7 +144,7 @@ ul{
 }
 /*顶端广告样式-结束*/
 
-/*头部样式-开始*/
+/*头部样式site-topbar-开始*/
 #site-topbar{
 	width: 100%;
 	background-color: #333;
@@ -214,11 +221,64 @@ ul{
 		line-height: 20px;
 	}
 }
-/*头部样式-结束*/
+/*头部样式site-topbar-结束*/
 
-/*头部导航栏央视-开始*/
-
-/*头部导航栏样式-结束*/
+/*头部导航栏样式site-header-开始*/
+#site-header{
+	width: 100%;
+	.header-logo{
+		width: 62px;
+		height: 55px;
+		margin: 22px 0 0;
+		position: relative;
+		float: left;
+		.logo{
+			width: 55px;
+			height: 55px;
+			background-color: #ff6700;
+			overflow: hidden;
+			&:before,&:after{
+				background: url("http://s01.mifile.cn/i/mi-logo.png") no-repeat 50% 50%;
+				opacity: 1;
+				color: #fff;
+				display: block;
+				width: 55px;
+				height: 55px;
+				position:absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+	.header-nav{
+		float: left;
+		width: 850px;
+		.nav-list{
+			width: 820px;
+			height: 88px;
+			padding: 12px 0 0 30px;
+		}
+		.nav-category{
+			float: left;
+			padding-right: 15px;
+			width: 127px;
+			height: 88px;
+			line-height: 88px;
+		}
+		.nav-item{
+			float: left;
+			padding: 0 10px;
+			height: 88px;
+			line-height: 77px;
+			font-size: 16px;
+		}
+	}
+	.header-search{
+		float: right;
+		width: 296px;
+	}
+}
+/*头部导航栏样式site-header-结束*/
 
 
 /*网站脚部site-footer样式-开始*/
